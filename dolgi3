@@ -1,0 +1,6 @@
+//вариант 3.31
+Console.Write("Введите n:");
+int n = int.Parse(Console.ReadLine());
+int s = (n / 100);
+int t = (n / 1000);
+Console.WriteLine($"Число сотен:{s} Число тысяч:{t}");
