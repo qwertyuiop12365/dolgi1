@@ -1,0 +1,13 @@
+
+//высок ур вариант 24 
+
+Console.Write("Введите a:");
+double a = double.Parse(Console.ReadLine());
+Console.Write("Введите b:");
+double b = double.Parse(Console.ReadLine());
+Console.Write("Введите h:");
+double h = double.Parse(Console.ReadLine());
+double S1 = (a * a);
+double S2 = (b * b);
+double V = ((h * (S1 + Math.Sqrt(S1 * S1) + S2)) / 3);
+Console.WriteLine($" Объём усечённой пирамины: {V:F2}");
