@@ -1,3 +1,5 @@
+//Вариант 22 высок ур
+
 Console.Write("Введите x:");
 double x = double.Parse(Console.ReadLine());
 Console.Write("Введите y:");
